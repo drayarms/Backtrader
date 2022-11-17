@@ -67,7 +67,7 @@ from alpaca_trade_api.rest import REST, TimeFrame, TimeFrameUnit
 The REST object has a number of methods that come in handy for obtaining information about your account including your account equity balance, market pricing etc. For our purposes however, we will mostly be utilizing this object's get_bars() method to get ohlcv candlesticks for our securities in play. We will also be utilizing the TimeFrame and TimeFrameUnit objects for pulling ohlcv dataframes.
 
 
-##simulator.py
+## simulator.py
 This is the entry point to our program. Let's dive into this file to explain some setups.
 
 ```
